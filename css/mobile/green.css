@@ -1,0 +1,11 @@
+@media screen and (max-width: 1020px) {
+
+    .green-group {
+        align-items: center;
+    }
+    
+    .green-group > div > img {
+        width: 10vw;   
+    }
+
+}

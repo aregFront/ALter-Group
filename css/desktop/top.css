@@ -1,0 +1,94 @@
+.top {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.top-big {
+    font-family: "Roboto-Bold";
+    padding-bottom: 5px;
+}
+
+.top-small {
+    font-family: "Roboto-Light";
+    font-size: 1.2vw;
+    color: #FEFEFE;
+    padding-bottom: 2px;
+}
+
+.top-btn {
+    font-family: "Roboto-Regular";
+    border: 2px solid white;
+    border-radius: 50px;
+    display: inline;
+    padding: 10px 60px;
+    font-size: 1.4  vw;
+    cursor: pointer;
+}
+
+.top-1 {
+    background-image: url("../../img/top/bg-1.png");
+}
+
+.top-2 {
+    background-image: url("../../img/top/bg-2.png");
+}
+
+.top-3 {
+    background-image: url("../../img/top/bg-3.png");
+}
+
+.top-4 {
+    background-image: url("../../img/top/bg-4.png");
+}
+
+.top-5 {
+    background-image: url("../../img/top/bg-5.png");
+}
+
+.top-6 {
+    background-image: url("../../img/top/bg-6.png");
+}
+
+.top-7 {
+    background-image: url("../../img/top/bg-7.png");
+}
+
+.top-8 {
+    background-image: url("../../img/top/bg-8.png");
+}
+
+.top-9 {
+    background-image: url("../../img/top/bg-9.png");
+}
+
+.top-10 {
+    background-image: url("../../img/top/bg-10.png");
+}
+
+.top-11 {
+    background-image: url("../../img/top/bg-11.png");
+}
+
+.top-12 {
+    background-image: url("../../img/top/bg-12.png");
+}
+
+.top-13 {
+    background-image: url("../../img/top/bg-13.png");
+}
+
+.top-14 {
+    background-image: url("../../img/top/bg-14.png");
+}
+
+

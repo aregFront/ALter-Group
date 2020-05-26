@@ -1,0 +1,36 @@
+.green > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.green-title {
+    color: #605757;
+    text-align: center;
+    font-family: "Roboto-Light";
+    margin-bottom: 30px;
+}
+
+.green-group {
+    display: flex;
+    justify-content: space-between;    
+    background-color: #0DAC46;
+}
+
+.green-group > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.green-big {
+    font-family: "Roboto-Medium";
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+.green-small {
+    font-family: "Roboto-Thin";
+    font-size: 2.8vw;
+    color: #FBFDFC;
+}

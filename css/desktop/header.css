@@ -1,0 +1,58 @@
+header > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.5vh 149px 4.5vh 20px;
+    font-family: "Roboto-Medium";
+}
+
+.header-group {
+    display: flex;
+}
+
+.header-logo {
+    width: 17vw;
+    margin-right: 30px;
+}
+
+.header-phone-numbers {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.header-phone-number-1 {
+    margin-right: 60px;
+}
+
+.header-phone-number-1,
+.header-phone-number-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-phone-number-1 > span:nth-of-type(1),
+.header-phone-number-2 > span:nth-of-type(1) {
+    font-size: 1.4vw;
+    font-family: "Roboto-Bold";
+    color: #040404;
+}
+
+.header-phone-number-1 > span:nth-of-type(2),
+.header-phone-number-2 > span:nth-of-type(2) {
+    font-size: 0.7vw;
+    font-family: "Roboto-Light";
+    color: #a3a3a3;
+}
+
+.header-order-btn {
+    background-color: #12B45A;
+    color: white;
+    font-family: "Roboto-Regular";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 31px;
+    border-radius: 50px;
+    font-size: 1vw;
+    cursor: pointer;
+}

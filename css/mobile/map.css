@@ -1,0 +1,28 @@
+@media screen and (max-width: 1020px) {
+
+    .map > div {
+        flex-direction: column;
+    }
+
+    .map-texts {
+        width: 100%;
+    }
+
+    .map-title {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .map-descr {
+        font-size: 2.5vw;
+        margin-bottom: 10px;
+        text-align: center;
+        line-height: 2.5vh;
+    }
+
+    .map-map {
+       justify-content: center;
+       width: 100%;
+    }
+   
+}

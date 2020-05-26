@@ -1,0 +1,23 @@
+.map > div {
+    display: flex;
+    justify-content: space-between;
+    color: #605757;
+    font-family: "Roboto-Light";
+}
+
+.map-title {
+    margin-bottom: 20px;
+}
+
+.map-descr {
+    font-size: 1.3vw;
+}
+
+.map-texts,
+.map-map {
+    width: 45%;
+}
+
+.map-map > img {
+    width: 100%;
+}

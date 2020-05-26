@@ -1,0 +1,30 @@
+@media screen and (max-width: 1020px) {
+
+    .work-view-title {
+        padding-bottom: 30px;
+    }
+
+    .work-view-card > img {
+        width: 17vw;
+        height: 17vh;
+    }
+
+    .work-view-card-selected {
+        margin: 0;
+    }
+    
+    .work-view-card-selected > img {
+        width: 25vw;
+        margin: 0 20px;
+        height: 25vh;
+    }
+
+    .work-view-slaider {
+        height: 30vh;
+    }
+
+    .work-view-slaider-group {
+        margin: 0 10px;
+    }
+
+}

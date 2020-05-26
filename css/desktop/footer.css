@@ -1,0 +1,40 @@
+footer {
+    background: linear-gradient(0deg, #72C332, #72C332), #0DAC46;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo > img {
+    width: 35vw;
+}
+
+.footer-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-data {
+    width: 45%;
+    line-height: 3vh;
+}
+
+.footer-title {
+    font-family: "Roboto-Medium";
+    margin-bottom: 15px;
+}
+
+.footer-descr {
+    font-family: "Roboto-Light";
+    color: white;
+}
+
+.footer-margin {
+    margin-top: 15px;
+}

@@ -1,0 +1,62 @@
+@media screen and (max-width: 1020px) {
+
+    header > div {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header-logo {
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .header-phone-numbers {
+        padding-top: 0;
+        flex-direction: column;
+        align-self: unset;
+    }
+
+    .header-phone-number-1 {
+        margin-right: 0;
+    }
+
+    .header-phone-number-2 {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .header-phone-number-1 > span:nth-of-type(1),
+    .header-phone-number-2 > span:nth-of-type(1) {
+        font-size: 9px;
+    }
+
+    .header-phone-number-1 > span:nth-of-type(2),
+    .header-phone-number-2 > span:nth-of-type(2) {
+        font-size: 7.5px;
+        color: #424242;
+    }
+
+    .header-order-btn {
+        padding: 0 10px;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .header-logo {
+        margin-right: 5px;
+    }
+
+    .header-phone-number-1 > span:nth-of-type(1),
+    .header-phone-number-2 > span:nth-of-type(1) {
+        font-size: 7.5px;
+    }
+
+    .header-order-btn {
+        padding: 0 7px;
+        font-size: 8px;
+    }
+}

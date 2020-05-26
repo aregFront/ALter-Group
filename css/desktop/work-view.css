@@ -1,0 +1,67 @@
+.work-view > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-view-title {
+    font-family: "Roboto-Light";
+    color: #605757;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.work-view-slaider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}
+
+.work-view-arrow {
+    height: 7vw;
+    cursor: pointer;
+}
+
+.work-view-slaider-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.work-view-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto-Regular";
+    color: #535353;
+    text-align: center;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.work-view-card:hover {
+    opacity: .5;
+    transition: .5s;
+}
+
+.work-view-card > img {
+    width: 17vw;
+    height: 40vh;
+}
+
+.work-view-card > span {
+    padding-top: 5px;
+    word-wrap: break-word;
+    width: 17vw;
+}
+
+.work-view-card-selected {
+    color: #070707;
+    font-size: 2vw;
+    margin: 0 20px;
+}
+
+.work-view-card-selected > img {
+    height: 55vh;
+}

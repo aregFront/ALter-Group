@@ -1,0 +1,23 @@
+@media screen and (max-width: 1020px) {
+
+    .title {
+        font-size: 4.5vw;
+    }
+
+    .examples,
+    .green-group,
+    .map,
+    .text,
+    .top,
+    .work-view,
+    .feedback,
+    footer {
+        padding: 30px;
+    }
+
+    .arrow-up {
+        width: 8%;
+        bottom: 4%;
+    }
+
+}

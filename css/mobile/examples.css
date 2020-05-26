@@ -1,0 +1,11 @@
+@media screen and (max-width: 1020px) {
+
+    .examples-btn {
+        font-size: 3.5vw;
+    }
+
+    .examples-slaider-group {
+        height: 20vh;
+    }
+
+}

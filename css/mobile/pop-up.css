@@ -1,0 +1,17 @@
+@media screen and (max-width: 1020px) {
+
+    .pop-up {
+        width: 80%;
+    }
+
+    .pop-up input,
+    .pop-up-title {
+        font-size: 3.5vw;
+    }
+
+    .pop-up input[type=text] {
+        margin-bottom: 15px;
+    }
+
+}
+

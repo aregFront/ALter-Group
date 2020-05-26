@@ -1,0 +1,59 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+/* --- */
+
+.title {
+    font-size: 2.8vw;
+}
+
+.examples,
+.green-group,
+.map,
+.text,
+.top,
+.work-view,
+.feedback,
+footer {
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.top {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.examples,
+.green-group,
+.map,
+.text,
+.work-view,
+.feedback,
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.arrow-up {
+    position: fixed;
+    right: 5%;
+    bottom: 8%;
+    width: 6%;
+    opacity: .8;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.arrow-up:hover {
+    opacity: 1;
+    transition: .7s;
+}

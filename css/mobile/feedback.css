@@ -1,0 +1,40 @@
+@media screen and (max-width: 1020px) {
+
+    .feedback-title {
+        margin-bottom: 10px;
+    }
+
+    .feedback-slaider-group > div:nth-of-type(1) {
+        margin-right: 5px;
+    }
+
+    .feedback-slaider-group > div:nth-of-type(2) {
+        display: none;
+    }
+
+    .feedback-slaider-group > div > img {
+        width: 20vw;
+        height: auto;
+    }
+
+    .feedback-human-data {
+        margin-left: 5px;
+    }
+    .feedback-human-data {
+        font-size: 2vw;
+    }
+
+    .feedback-slaider-group > div {
+        width: 65%;
+        align-items: center;
+    }
+
+    .feedback-human-data > span:nth-of-type(1) {
+        margin-bottom: 5px;
+    }
+
+    .feedback-slaider-group {
+        height: 20vh;
+    }
+
+}

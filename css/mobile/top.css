@@ -1,0 +1,17 @@
+@media screen and (max-width: 1020px) {
+
+    .top-group {
+        padding-bottom: 20px;
+    }
+
+    .top-small {
+        font-size: 2.3vw;
+    }
+
+    .top-btn {
+        padding: 5px 30px;
+        font-size: 2vw;
+    }
+
+}
+
